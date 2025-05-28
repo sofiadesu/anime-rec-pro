@@ -1,85 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> About Me </title>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 0 8px rgba(0,0,0,0.15);
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        ul {
+            list-style-type: circle;
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1> About Me </h1>
-    <img src="images/me.jpeg" alt="me" width="200" height="200">
-    <p> 
-        Hello! My name is Hun Sopheak. 
-        I am currently a 3rd student at Institute of Technology of Cambodia aka ITC.
-        I'm majoring in Applied Mathematics and Statistics (Specialize in Data Science).
-        I am a motivated and curious person who loves to learn new things.
-        I am also a fan of anime and manga, and I enjoy watching and reading them in my free time.
-        That's why I created this website to share my passion for anime and manga with others.
-        I hope you enjoy exploring my website and discovering new anime and manga recommendations!
-    </p>
-    <h2> My Hobbies </h2>
-    <ul>
-        <li> Watching anime and reading manga </li>
-        <li> Reading novels </li>
-        <li> Listening to music </li>
-    </ul>
-    <h2> My University Schedule</h2>
-    <table border="1" cellpadding="15" cellspacing="0">
-        <thead>
-            <tr>
-                <th> Time </th>
-                <th> Monday </th>
-                <th> Tuesday </th>
-                <th> Wednesday </th>
-                <th> Thursday </th>
-                <th> Friday </th>
-                <th> Saturday </th>
-                <th> Sunday </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> 7:00am - 9:00am </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> Introduction to Network </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td> 9:00am - 11:00am </td>
-                <td> Mini Project </td>
-                <td> English </td>
-                <td> Introduction to Machine Learing </td>
-                <td> English </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr>
-                <td> 1:00pm - 3:00pm </td>
-                <td> Database </td>
-                <td> Numerical Analysis</td>
-                <td> Introduction to Machine Learning </td>
-                <td> Programming for Data Science </td>
-                <td> Programming for Data Science </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-             <tr>
-                <td> 3:00pm - 5:00pm </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> Database </td>
-                <td> Numerical Analysis </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <h1>About Me</h1>
+        <img src="images/me.jpeg" alt="me">
+        <p>
+            Hello! My name is <strong>Hun Sopheak</strong>. I'm currently a 3rd-year student at the 
+            <em>Institute of Technology of Cambodia (ITC)</em>, majoring in <strong>Applied Mathematics and Statistics</strong> with a specialization in Data Science.
+            <br><br>
+            I'm a motivated and curious person who loves learning new things. I'm also a fan of anime and manga, which is what inspired me to create this website which is a space to share my passion and recommend my favorite series. I hope you enjoy exploring it!
+        </p>
 
-    
-       
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Watching anime and reading manga</li>
+            <li>Reading novels</li>
+            <li>Listening to music</li>
+        </ul>
+    </div>
 </body>
 </html>
