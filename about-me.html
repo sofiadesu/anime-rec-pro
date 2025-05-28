@@ -9,6 +9,29 @@
             color: #333;
         }
 
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            position: sticky;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #2c3e50;
+            margin-left: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: pink;
+        }
+
         .container {
             max-width: 800px;
             margin: 50px auto;
@@ -50,6 +73,10 @@
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+    </div>
     <div class="container">
         <h1>About Me</h1>
         <img src="images/me.jpeg" alt="me">
