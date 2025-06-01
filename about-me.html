@@ -41,9 +41,9 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
-        .contact-info {
-            display: left;
-            height: 50px;
+        .contact-space {
+            display: flex;
+            height: 60px;
             justify-content: space-between;
             align-items: center;
             background-color: blanchedalmond;
@@ -54,11 +54,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             background-color: white;
             border-radius: 50%;
-            margin-right: 10px;
+
+        }
+
+        .icon-box img {
+            width: 60%;
+            height: auto;
         }
 
         h1, h2 {
@@ -114,8 +119,12 @@
             <li>Listening to music</li>
         </ul>
     </div>
-    <div class="contact-info">
-        <p>Telegram: <a href="Telegram: https://t.me/sofia_desu">Hun Sopheak</a></p>
+    <div class="contact-space">
+        <a href="https://t.me/sofia_desu" target="_blank">
+            <div class="icon-box">
+                <img src="images/telegram.png" alt="Telegram Icon" class="icon-box img">
+            </div>
+        </a>
     </div>
 </body>
 </html>
